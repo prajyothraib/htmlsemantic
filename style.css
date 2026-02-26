@@ -1,0 +1,126 @@
+/* ===== Global Styles ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    color: #333;
+}
+
+.container {
+    padding: 60px 10%;
+}
+
+/* ===== Header ===== */
+header {
+    background: #111;
+    color: white;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #00bcd4;
+}
+
+/* ===== About ===== */
+.about-grid {
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.about-grid img {
+    width: 200px;
+}
+
+/* ===== Products ===== */
+.product-grid {
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.product-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+}
+
+.product-card img {
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+.product-card button {
+    padding: 10px 20px;
+    border: none;
+    background: #00bcd4;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* ===== Contact ===== */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 50%;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+}
+
+.contact-form button {
+    background: #111;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* ===== Footer ===== */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+    color: white;
+    margin-top: 50px;
+}
+
+footer a {
+    color: #00bcd4;
+    text-decoration: none;
+}
